@@ -1,0 +1,23 @@
+# These patches are only for the testsuite:
+#900_testsuite_groupmems
+#901_testsuite_gcov
+
+008_login_log_failure_in_FTMP
+401_cppw_src.dpatch
+# 402 should be merged in 401, but should be reviewed by SE Linux experts first
+402_cppw_selinux
+429_login_FAILLOG_ENAB
+463_login_delay_obeys_to_PAM
+501_commonio_group_shadow
+502_debian_useradd_defaults
+503_shadowconfig.8
+505_useradd_recommend_adduser
+506_relaxed_usernames
+542_useradd-O_option
+1010_extrausers.patch
+1011_extrausers_toggle.patch
+1012_extrausers_chfn.patch
+1013_extrausers_deluser.patch
+1014_extrausers_delgroup.patch
+1015_add_zsys_support.patch
+1016_extrausers_gpasswd.patch

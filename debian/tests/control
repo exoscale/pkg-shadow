@@ -1,0 +1,5 @@
+Tests: smoke
+Restrictions: needs-root superficial
+
+Tests: numeric-username
+Restrictions: needs-root, allow-stderr
