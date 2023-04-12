@@ -77,3 +77,6 @@ override_dh_auto_clean:
 
 override_dh_clean:
 	dh_clean ./man/login.defs.d/HOME_MODE.xml
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz
